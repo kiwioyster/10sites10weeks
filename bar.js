@@ -1,4 +1,4 @@
-const div = document.createElement('div');
+(() => {const div = document.createElement('div');
 
   div.className = 'row';
 
@@ -17,5 +17,5 @@ const div = document.createElement('div');
   `;
 
   document.body.appendChild(div);
-
+       })();
 
