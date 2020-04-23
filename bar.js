@@ -1,4 +1,9 @@
-<link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+const div = document.createElement('div');
+
+  div.className = 'row';
+
+  div.innerHTML = `
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
   <a href="https://design-dictionary-docs.web.app/" target="_blank"
     style="position: fixed; left: 50%; bottom: 0; transform: translate(-50%, -50%); width: 540px; height: 52px; background-color: #232528; border-radius: 26px; box-shadow: 2px 2px 4px black; border: 3px solid #fdca6b; display: flex; align-items: center; padding: 6px 24px; box-sizing: border-box; color: #edf7f8;font-size: 19px;font-family: 'Caveat', cursive;cursor: pointer;text-decoration: none;">
     <svg style="width: 18px;height: 18px;margin-right:18px" aria-hidden="true" focusable="false" data-prefix="fas"
@@ -9,3 +14,8 @@
       </path>
     </svg>
     Part of the 10 sites in 10 weeks project. Click here to find out more.</a>
+  `;
+
+  document.body.appendChild(div);
+
+
