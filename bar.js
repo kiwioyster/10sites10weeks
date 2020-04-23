@@ -1,9 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   const div = document.createElement('div');
-  console.log('hi');
-
   div.className = 'row';
-
   div.innerHTML = `
     <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
     <a href="https://design-dictionary-docs.web.app/" target="_blank"
@@ -17,6 +14,5 @@ document.addEventListener("DOMContentLoaded", function () {
     </svg>
     Part of the 10 sites in 10 weeks project. Click here to find out more.</a>
     `;
-
   document.body.appendChild(div);
 });
