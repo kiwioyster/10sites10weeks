@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   div.innerHTML = `
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap" rel="stylesheet">
     <a href="https://design-dictionary-docs.web.app/" target="_blank"
-    style="position: fixed; left: 50%; bottom: 0; transform: translate(-50%, -50%); width: 540px; height: 52px; background-color: #232528; border-radius: 26px; box-shadow: 2px 2px 4px black; border: 3px solid #fdca6b; display: flex; align-items: center; padding: 6px 24px; box-sizing: border-box; color: #edf7f8;font-size: 19px;font-family: 'Barlow', cursive;cursor: pointer;text-decoration: none;">
+    style="position: fixed; left: 50%; bottom: 0; transform: translate(-50%, -50%); width: 520px; height: 52px; background-color: #232528; border-radius: 26px; box-shadow: 2px 2px 4px black; border: 3px solid #fdca6b; display: flex; align-items: center; padding: 6px 24px; box-sizing: border-box; color: #edf7f8;font-size: 15px;font-family: 'Barlow', cursive;cursor: pointer;text-decoration: none;">
     <svg style="width: 18px;height: 18px;margin-right:18px" aria-hidden="true" focusable="false" data-prefix="fas"
       data-icon="info-circle" class="svg-inline--fa fa-info-circle fa-w-16" role="img"
       xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
