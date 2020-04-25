@@ -10,7 +10,7 @@ document.addEventListener("DOMContentLoaded", function () {
       #proj-bar-close-btn {background-color: transparent; border-radius: 50%; border: none; width: 24px; height: 24px; color: #edf7f8; display: flex; cursor: pointer;}
       </style>
       <link href="https://fonts.googleapis.com/css2?family=Barlow:ital@1&display=swap" rel="stylesheet">
-      <a id="10p10w-bar" href="https://design-dictionary-docs.web.app/" target="_blank"
+      <a id="10p10w-bar" href="https://nohats-studio.web.app/" target="_blank"
       class="proj-bar">
       <div>
       <svg style="width: 18px;height: 18px;margin-right:12px" aria-hidden="true" focusable="false" data-prefix="fas"
